@@ -1,0 +1,101 @@
+.mobiles-list-container {
+  max-width: 950px;
+  margin: 2.5rem auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 14px rgba(0,0,0,0.13);
+  padding: 2rem 2rem 1.5rem 2rem;
+}
+.header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-bar h1 {
+  color: #1976d2;
+  font-size: 2rem;
+}
+.header-bar button {
+  background: #e63946;
+  color: #fff;
+  padding: 0.5rem 1.3rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.controls {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0 1rem 0;
+  align-items: center;
+}
+.controls input {
+  flex: 2;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+}
+.controls select {
+  padding: 0.35rem 0.85rem;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  font-size: 1rem;
+}
+.controls button {
+  padding: 0.45rem 1rem;
+  border-radius: 5px;
+  border: none;
+  background: #1976d2;
+  color: #fff;
+  font-weight: 600;
+}
+
+.mobiles-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.mobiles-table th {
+  background: #f3f7fb;
+  padding: 0.9rem;
+  font-size: 1.07rem;
+  color: #1259c3;
+  text-align: left;
+}
+
+.mobiles-table td {
+  padding: 0.8rem;
+  border-bottom: 1px solid #ececec;
+}
+
+.mobiles-table button {
+  padding: 0.3rem 1.1rem;
+  background: #34bb53;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 0.96rem;
+  cursor: pointer;
+}
+.mobiles-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Modal styles */
+.modal-overlay {
+  position: fixed;
+  z-index: 100;
+  left: 0; top: 0; width: 100vw; height: 100vh;
+  background: rgba(0,0,0,0.14);
+  display: flex; justify-content: center; align-items: center;
+}
+.modal-content {
+  background: #fff;
+  border-radius: 10px;
+  padding: 2rem;
+  min-width: 320px;
+  box-shadow: 0 8px 36px rgba(0,80,180,0.13);
+}
