@@ -1,0 +1,50 @@
+.register-container {
+  max-width: 425px;
+  margin: 4rem auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.11);
+  padding: 2.5rem 2rem;
+}
+
+.register-container h2 {
+  text-align: center;
+  margin-bottom: 1.3rem;
+}
+.register-container form {
+  display: flex;
+  flex-direction: column;
+}
+.register-container input,
+.register-container select {
+  margin-bottom: 1.1rem;
+  padding: 0.68rem 0.6rem;
+  border: 1px solid #b4b4b4;
+  border-radius: 6px;
+  font-size: 1.08rem;
+  background: #f7f7fc;
+}
+.register-container button {
+  margin-top: 0.5rem;
+  padding: 0.7rem 0;
+  border-radius: 6px;
+  border: none;
+  background: #1976d2;
+  color: #fff;
+  font-size: 1.12rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.register-container .error-message {
+  color: #e63946;
+  font-size: 0.97rem;
+  margin-bottom: -0.6rem;
+}
+
+.login-link {
+  margin-top: 1.3rem;
+  text-align: center;
+  color: #1976d2;
+  cursor: pointer;
+}
