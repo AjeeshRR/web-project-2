@@ -1,0 +1,32 @@
+.error-container {
+  max-width: 440px;
+  margin: 6rem auto 0 auto;
+  padding: 2.2rem 2.3rem 2.5rem 2.3rem;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 18px rgba(0,30,90,0.12);
+  text-align: center;
+}
+
+.error-container h1 {
+  color: #e63946;
+  margin-bottom: 1.1rem;
+  font-size: 2rem;
+}
+
+.error-container p {
+  color: #111;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.error-container button {
+  background: #1976d2;
+  color: #fff;
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.08rem;
+  font-weight: 600;
+  cursor: pointer;
+}
